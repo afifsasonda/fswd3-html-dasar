@@ -1,0 +1,115 @@
+.grid-container{
+    background-color: wheat;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(6, auto);
+    width: 600px;
+    height: 700px;
+    grid-gap: 10px;
+    padding: 30px;
+    border: 2px solid black;
+}
+
+.grid-item{
+    text-align: center;
+    font-size: 20px;
+}
+.grid-item img{
+    align-items: center;
+}
+
+.gridbox-1{
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border: 2px solid white;
+}
+
+.gridbox-2{
+    background-color:brown;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+.gridbox-3{
+    background-color:chartreuse;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+.gridbox-4{
+    background-color:darkgoldenrod;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    justify-content: center;
+    border: 2px solid white;
+    
+}
+
+.gridbox-5{
+    background-color:black;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    justify-content: center;
+    border: 2px solid white;
+    color: white;
+}
+.gridbox-6{
+    background-color:cyan;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    justify-content: center;
+    border: 2px solid white;
+    
+}
+.gridbox-7{
+    background-color:darkblue;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    justify-content: center;
+    border: 2px solid white;
+}
+.gridbox-8{
+    background-color:azure;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+.gridbox-9{
+    background-color:cornflowerblue;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    justify-content: center;
+    border: 2px solid white;
+}
+.gridbox-10{
+    background-color:coral;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    justify-content: center;
+    border: 2px solid white;
+}

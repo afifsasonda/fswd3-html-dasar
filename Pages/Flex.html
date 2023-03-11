@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .wrapper {
+            display: flex;
+            height: auto;
+            width: fit-content;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .wrapper1 {
+            display: flex;
+            height: 400px;
+            width: 400px;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .wrap-content1 {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap: 10px;
+        }
+
+        .box1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50%;
+            background-color:chartreuse;
+        }
+
+        .box2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50%;
+            background-color:chartreuse;
+        }
+
+        .wrap-content2 {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap: 10px;
+        }
+
+        .box3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 75%;
+            background-color:chartreuse;
+        }
+
+        .wrap-content3 {
+            display: flex;
+            flex-direction: row;
+            height: 75%;
+            gap: 10px;
+        }
+
+        .wrap-content4 {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap: 10px;
+        }
+
+        .box4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 66.66%;
+            background-color:chartreuse;
+        }
+
+        .box5 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 33.33%;
+            background-color:chartreuse;
+        }
+
+        .wrap-content5 {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap: 10px;
+        }
+
+        .box6 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 33.33%;
+            background-color:chartreuse;
+        }
+
+        .box7 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 66.66%;
+            background-color:chartreuse;
+        }
+
+        .wrapper2 {
+            display: flex;
+            height: 250px;
+            width: 400px;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .wrap-content6 {
+            display: flex;
+            height: 50%;
+            flex-direction: row;
+            gap: 10px;
+        }
+
+        .box8 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 66.66%;
+            background-color:chartreuse;
+        }
+
+        .box9 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 33.33%;
+            background-color:chartreuse;
+        }
+
+        .box10 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50%;
+            background-color:chartreuse;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <h1>CSS Flex</h1>
+    <div class="wrapper">
+        <div class="wrapper1">
+            <div class="wrap-content1">
+                <div class="box1">1</div>
+                <div class="box2">2</div>
+            </div>
+            <div class="wrap-content2">
+                <div class="box3">3</div>
+                <div class="wrap-content3">
+                    <div class="wrap-content4">
+                        <div class="box4">4</div>
+                        <div class="box5">5</div>
+                    </div>
+                    <div class="wrap-content5">
+                        <div class="box6">6</div>
+                        <div class="box7">7</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper2">
+            <div class="wrap-content6">
+                <div class="box8">8</div>
+                <div class="box9">9</div>
+            </div>
+            <div class="box10">10</div>
+        </div>
+    </div>
+</center>
+</body>
+</html>
