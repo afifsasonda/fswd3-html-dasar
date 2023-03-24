@@ -1,4 +1,3 @@
-
 function add(){
     let inptTodo = document.getElementById('todo-input');
     let btnsave = document.getElementById('btn-save');

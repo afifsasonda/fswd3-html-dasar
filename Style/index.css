@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 65px;
+    width: 100%;
+    background-color:blue;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    /* padding: 0 15px; */
+    /* background-color: red; */
+}
+
+.logo-img{
+    width: 50px;
+}
+.logo-nama{
+    width: 100px;
+
+}
+
+.header-left{
+    float: left;
+    margin-left: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-right{
+    float: right;
+    margin-right: 5em;
+}
+
+.header-right a{
+    display: block;
+    color: white;
+    float: left;
+    line-height: 65px;
+    padding: 0 25px;
+    transition: all 0.5s;
+}
+.header-right a:hover{
+    background-color:darkblue;
+}
+
+section{
+    background-image: url("/assets/background/wave.png");
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+}
+.task-wrapper .container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.card{
+    width: 25%;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 1em;
+    margin: 1em;
+}
+.card-img{
+    width: 50%;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-content{
+    margin: 0 1em;
+}
